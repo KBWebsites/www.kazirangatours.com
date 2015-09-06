@@ -1,0 +1,16 @@
+permalink: pretty
+
+sass:
+    sass_dir: /-/css
+
+collections:
+  home_blocks:
+    output: true
+    permalink: /:path/
+
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: page

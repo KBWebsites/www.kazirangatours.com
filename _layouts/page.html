@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Kaziranga Tours</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <!--[if lte IE 8]><script src="/-/css/ie/html5shiv.js"></script><![endif]-->
+    <script src="/-/js/jquery.min.js"></script>
+    <script src="/-/js/jquery.poptrox.min.js"></script>
+    <script src="/-/js/skel.min.js"></script>
+    <script src="/-/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="/-/css/skel.css">
+        <link rel="stylesheet" href="/-/css/style.css">
+        <link rel="stylesheet" href="/-/css/style-xlarge.css">
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="/-/css/ie/v8.css"><![endif]-->
+</head>
+<body id="top">
+        <header id="header">
+            <h1><strong>Kaziranga Tours</strong>
+                <div style="position:absolute;right:25px;top:10px">
+                    <a href="https://www.facebook.com/pages/Kaziranga-Tours/118063841550091" class="icon fa-facebook-square"><span class="label">Facebook</span></a>
+                </div>
+            </h1>
+        </header>
+        <div id="main">
+            <nav>
+                <table>
+                <tr>
+                    <td><a href="/">Home</a></td>
+                    <td rowspan="4" id="logo"><a href="/"><img src="/files/logo.png" alt="Kaziranga Tours"></a></td>
+                    <td><a href="/travel-tips/">Travel Tips</a></td>
+                </tr>
+                <tr>
+                    <td><a href="/northeast-festivals/">Northeast Festivals</a></td>
+                    <td><a href="/about-northeast-india/">About Northeast <span class="mobile-hide">India</span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="/our-guests/">Our Guests</a></td>
+                    <td><a href="/contact-us/">Contact Us</a></td>
+                </tr>
+                <tr>
+                    <td><a href="/our-tours/">Our Tours</a></td>
+                    <td><a href="/gallery/">Gallery</a></td>
+                </tr>                
+                </table>
+                <br>
+                <marquee>☆ <a href="/itinerary/1">Shillong – Guwahati: Tours starting at Rs. 6,799/- per person</a> <span style="padding:0 10px">|</span> <a href="/itinerary/2">Shillong – Cherrapunjee – Guwahati: Tours starting at Rs 13,399/- per person</a> ☆</marquee>
+            </nav>
+
+            <section>               
+                {% unless page.hide_title %}
+                {% if page.title %}
+                    <h2>{{ page.title }}</h2>
+                {% endif %}
+                {% endunless %}
+                {% if page.img %}
+                    <a href="{{ page.img }}"><img src="{{ page.img }}" alt="" style="max-width:100%" /></a>
+                {% endif %}
+                {{ content }}
+                {% unless page.hide_contact %}
+                <hr>
+                <h2>Get In Touch</h2>
+                <div class="row">
+                    <div class="8u 12u$(2)">
+                        <form method="post" action="//a.kishan.info/forms/?kt@g">
+                            <div class="row uniform 50%">
+                                <div class="6u 12u$(3)"><input type="text" name="Name" placeholder="Name"></div>
+                                <div class="6u$ 12u$(3)"><input type="email" name="Email" placeholder="Email"></div>
+                                <div class="12u$"><textarea name="Message" placeholder="Message" rows="4"></textarea></div>
+                            </div><br>
+                            <input type="submit" value="Send Message">
+                        </form>
+                    </div>
+                    <div class="4u$ 12u$(2)">
+                        <ul class="labeled-icons">
+                            <li>
+                                <h3 class="icon fa-home"><span class="label">Address</span></h3>
+                                Ground Floor<br/>
+                                Kadambari Complex<br/>
+                                Thana Charali<br/>
+                                Dibrugarh - 786 001<br/>
+                                Assam, India
+                            </li>
+                            <li>
+                                <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+                                +91 373 2325969
+                            </li>
+                            <li>
+                                <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+                                <a href="mailto:sudarshan@kazirangatours.com">sudarshan@kazirangatours.com</a><br/>
+                                <a href="mailto:kazirangatours@gmail.com">kazirangatours@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                {% endunless %}
+                <hr>
+                <center>
+                    <a style="border:0" href="http://www.wtmresponsibletourism.com/supporters/Asia-2014/"><img src="/-/img/wtmrt-logo.png" alt="World Travel Market responsible tourism"></a>
+                    <div id="google_translate_element"></div>
+                    <br>
+                </center>
+            </section>
+        </div>
+        
+        <!-- <footer id="footer">
+            <ul class="icons">
+                <li><a href="//twitter.com/KazirangaTours" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/pages/Kaziranga-Tours/118063841550091" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="mailto:khounds@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </footer> -->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-15889022-20', 'auto');
+ga('send', 'pageview');
+</script>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-15889022-20'}, 'google_translate_element');
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

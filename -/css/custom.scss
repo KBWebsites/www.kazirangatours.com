@@ -1,0 +1,66 @@
+@import 'vars';
+
+header h1{background: rgba(0,0,0,0.3); position: absolute; width: 100%; text-align: center; bottom: 0; padding: 10px 0; font-size: 25px}
+p{text-align: justify}
+section img{max-width:100%}
+nav{
+    color: $color-accent-bg;
+    a{border-color:transparent}
+    a:hover{border-color:initial}
+    table{width:auto;margin:auto;font-size:110%}
+    table tbody tr{background:none!important;border:none}
+    td:first-child{text-align:right;padding-right:5%}
+    td:last-child{padding-left:5%}
+    td{padding:0}
+    #logo{vertical-align:middle;text-align:center}
+    #logo a{border:none}
+    img{max-width:100%}
+    img:hover{opacity: .9}
+}
+marquee {
+  background: greenyellow;
+  color: black;
+  padding: 5px 0;
+  display: block;
+}
+marquee a, marquee a:hover {color: black!important}
+.mobile-hide{display: initial}
+#guests a{border:none}
+@media(min-width:980px){
+    nav {
+    background:lighten($color-accent-bg,40%);
+    padding:4em 0 0 0;
+    margin:-4em;
+    }
+    #main > section {border-top:0}
+}
+@media(min-width: 700px) {
+    td:not(#logo) {
+        a{
+            background: #49bf9d;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: none;
+        }
+        a:hover{
+            color: #49bf9d;
+            background: #fff;
+        }
+    }
+}
+@media(max-width: 980px){
+    header{min-height: 300px}
+}
+@media(max-width: 736px){
+    header{min-height: 200px}
+    nav{font-size: 90%}
+}
+@media(max-width: 500px){
+    .mobile-hide{display: none}
+}
+@media(max-width: 332px){
+    #logo{display: none}
+}
+#google_translate_element{line-height:1;font-family:inherit}
+#google_translate_element a{border:0}
