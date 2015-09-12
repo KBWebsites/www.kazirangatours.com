@@ -229,7 +229,7 @@ $size-header-pad:		4em;
 		@include vendor-property('appearance', 'none');
 		background: $color-border-bg;
 		border-radius: $size-border-radius;
-		border: solid 2px transparent;
+		border: solid 2px #ccc;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -763,10 +763,10 @@ $size-header-pad:		4em;
 	.button {
 		@include vendor-property('appearance', 'none');
 		@include vendor-property('transition', 'background-color #{$duration-transition} ease-in-out, color #{$duration-transition} ease-in-out, border-color #{$duration-transition} ease-in-out');
-		background-color: transparent;
+		background-color: $color-accent-bg;
 		border-radius: $size-border-radius;
-		border: solid 3px $color-border;
-		color: $color-fg-bold !important;
+		border: solid 3px $color-accent-bg;
+		color: white !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: $font-weight-bold;
@@ -780,8 +780,9 @@ $size-header-pad:		4em;
 		white-space: nowrap;
 
 		&:hover {
-			border-color: $color-accent-bg;
-			color: $color-accent-bg !important;
+			background-color: transparent;
+			color: $color-fg-bold !important;
+			border-color: $color-border;
 		}
 		
 		&:active {
@@ -946,7 +947,7 @@ $size-header-pad:		4em;
 
 	#main {
 		margin-left: $size-header-width;
-		max-width: 50em + $size-header-pad;
+		//max-width: 50em + $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 		padding: $size-header-pad;
 		> section {
@@ -1135,5 +1136,6 @@ $size-header-pad:		4em;
 
 	}
 
-
+nav {margin: -#{$size-header-pad}}
+#about-kt {margin: -2em -#{$size-header-pad} -2em; padding: 2em #{$size-header-pad} 2em}
 @import 'custom';

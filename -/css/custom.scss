@@ -7,7 +7,7 @@ nav{
     color: $color-accent-bg;
     a{border-color:transparent}
     a:hover{border-color:initial}
-    table{width:auto;margin:auto;font-size:110%}
+    table{width:100%;margin:auto;font-size:110%}
     table tbody tr{background:none!important;border:none}
     td:first-child{text-align:right;padding-right:5%}
     td:last-child{padding-left:5%}
@@ -17,6 +17,7 @@ nav{
     img{max-width:100%}
     img:hover{opacity: .9}
 }
+#about-kt {background-color: rgba(30,255,95,0.2)}
 marquee {
   background: greenyellow;
   color: black;
@@ -29,13 +30,12 @@ marquee a, marquee a:hover {color: black!important}
 @media(min-width:980px){
     nav {
     background:lighten($color-accent-bg,40%);
-    padding:4em 0 0 0;
-    margin:-4em;
+    padding:1em 0 0 0;
     }
     #main > section {border-top:0}
 }
 @media(min-width: 700px) {
-    td:not(#logo) {
+    nav td:not(#logo) {
         a{
             background: #49bf9d;
             color: #fff;
@@ -62,5 +62,5 @@ marquee a, marquee a:hover {color: black!important}
 @media(max-width: 332px){
     #logo{display: none}
 }
-#google_translate_element{line-height:1;font-family:inherit}
+#google_translate_element{line-height:1;font-family:inherit;float: right;padding-bottom:2em;margin-right:1em;height: 25px}
 #google_translate_element a{border:0}

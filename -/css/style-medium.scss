@@ -87,3 +87,5 @@ $size-header-pad:		4em;
 		width: 100%;
 		padding: ($size-header-pad * 1.5) $size-header-pad;
 	}
+	#about-kt {margin: -2em -#{$size-header-pad} -2em; padding: 2em #{$size-header-pad} 2em}
+	nav {margin: -#{$size-header-pad}}

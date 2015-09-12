@@ -46,3 +46,5 @@ $size-header-pad:		3em;
 		width: calc(100% - #{$size-header-width});
 		padding: $size-header-pad;
 	}
+	#about-kt {margin: -2em -#{$size-header-pad} -2em; padding: 2em #{$size-header-pad} 2em}
+	nav {margin: -#{$size-header-pad}}

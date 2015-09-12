@@ -2,20 +2,21 @@
 layout: page
 ---
 
-## A glimpse of Northeast India
-<iframe width="100%" height="600" src="//www.youtube.com/embed/sUhZO86qyJg" frameborder="0" allowfullscreen></iframe>
+<div class="row">
+    <article class="6u 12u$(3) work-item">
+        <h2>A glimpse of Northeast India</h2>
+        <iframe width="100%" height="450" src="//www.youtube.com/embed/sUhZO86qyJg" frameborder="0" allowfullscreen></iframe>
+    </article>
+    <article class="6u$ 12u$(3) work-item">
+        <h2>Visit the Anthurium Festival this year at Mizoram</h2>
 
-<hr>
-
-## Visit the Anthurium Festival this year at Mizoram
-
-![](/files/anthurium1.jpg)
-
-The three days colorful Anthurium festival will be held from 1st to 3rd of October this year with traditional pomp and gaiety at Lengpui mini sports complex in Mizoram, India. This festival also serves the purpose of bringing together the different tribes of Mizoram and seeks to promote their culture and at the same time attract domestic and foreign visitors to experience the beauty of Mizoram. The festival includes cultural dances, old and modern Mizo songs, and many other local sports and activities including a colorful fashion show.
-
-Our tours starts from Rs. 9,999/-* per person. Please [get in touch](/contact-us/) with us for more details.
-
-![](/files/anthurium2.jpg)
+        <img src="/files/anthurium1.jpg" alt="">
+        
+        <p>The three days colorful Anthurium festival will be held from 1st to 3rd of October this year with traditional pomp and gaiety at Lengpui mini sports complex in Mizoram, India.
+        <br/>
+        <a href="/upcoming-event/">Read More &rarr;</a></p>
+    </article>
+</div>
 
 <hr>
 
@@ -38,6 +39,8 @@ Our tours starts from Rs. 9,999/-* per person. Please [get in touch](/contact-us
 
 <hr>
 
+{::options parse_block_html="true" /}
+<div id="about-kt">
 ## About Kaziranga Tours
 
 We are tour operators promoting the seven North Eastern states of India also known as the Seven Sisters. Northeast India with its beautiful hills, valleys, lakes, rainforests, wildlife and colorful tribal people, is a tourists’ paradise. Yet due to its geographical location, this region has remained unexplored for a very long time and has come in the radar of tourism only recently.
@@ -47,3 +50,4 @@ Our company, for almost a decade now, has been a pioneer in promoting tourism in
 North East India is known for its friendly people and warm hospitality. It is this tradition that our team of dedicated young tourism professionals strives to uphold at Kaziranga Tours.
 
 We welcome you to embark on a great journey of discovery with us.
+</div>
